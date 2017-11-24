@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+
+}
+.img-circle {
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+    border-width: 10px;
+}
+#header h1 {
+color: white;
+
+}
+
+#header{
+	background-color: #333333;
+    padding: 8px 8px 10px 10px;
+	font-size: 20px;
+    margin: 0px;
+}
+.menu a:hover{
+    background-color: black;
+    border-radius: 20%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu a{
+    color: white;
+    display: inline;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li{
+
+    display: inline
+}
+
+#summary {
+
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+
+}
+
+
+ p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+#contactPosition {
+  position: relative;
+  left: 30px;
+}
+#linksPersonalEmail{
+    float: left;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+}
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:50px;
+   width:100%;
+   background:#333333;
+   color: white;
+}
